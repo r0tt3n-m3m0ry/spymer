@@ -16,7 +16,7 @@ def clear_screen():
 
 def mask(phone, phone_mask): # mask('+79055382025', '+# (###) ###-##-##') returns '+7 (905) 538-20-25':
     for number in phone:
-        phone_mask = mask.replace('#', i, 1)
+        phone_mask = mask.replace('#', number, 1)
     return phone_mask
 
 clear_screen()
